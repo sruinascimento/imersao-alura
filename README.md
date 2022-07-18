@@ -6,7 +6,7 @@
 
 <p align="center"> Projeto para criar stickers de capas de filmes.</p>
 
-<img src="https://img.shields.io/badge/status-em%20desenvolvimento-green">
+<img  align="center" src="https://img.shields.io/badge/status-em%20desenvolvimento-green">
 
 - [Java](https://github.com/sruinascimento/imersao-alura)
 
