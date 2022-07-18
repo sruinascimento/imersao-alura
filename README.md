@@ -1,6 +1,6 @@
-# Imersão Java
 
-## 📐 Projeto: Alura Sticker
+
+ <h1 align="center"> 📐 Alura Sticker </h1>
 
 Projeto para criar stickers de capas de filmes.
 
