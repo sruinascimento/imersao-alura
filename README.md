@@ -1,18 +1,18 @@
-## Getting Started
+# Imersão Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📐 Projeto: Alura Sticker
 
-## Folder Structure
+Projeto para criar stickers de capas de filmes. Foram feitas duas implementações:
 
-The workspace contains two folders by default, where:
+- [Java](https://github.com/sruinascimento/imersao-alura)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+> A implementação em Kotlin, provavelmente, será a mais completa.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 📝 Aulas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- [x] 1
+  - [x] Buscar filmes mais populares
+  - [x] Apresentar notas com emoji de estrela
+  - [x] Colocar chave da API em um local fora do código fonte
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![image](https://user-images.githubusercontent.com/8989346/179619613-8c1706f5-5953-4789-8d4e-8f638a468ded.png)
