@@ -10,6 +10,8 @@
 
 <p> Projeto para criar stickers de capas de filmes.</p>
 
+## Tecnologias
+
 - [Java](https://github.com/sruinascimento/imersao-alura)
 
 ## 📝 5 dias de imersão
