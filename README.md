@@ -1,8 +1,12 @@
 
 
- <h1 align="center"> 📐 Alura Sticker </h1>
+ <h1 align="center"> Alura Sticker </h1>
 
-Projeto para criar stickers de capas de filmes.
+## Descrição do Projeto
+
+<p align="center"> 🚀 Projeto para criar stickers de capas de filmes.</p>
+
+<img src="https://img.shields.io/badge/status-em%20desenvolvimento-green">
 
 - [Java](https://github.com/sruinascimento/imersao-alura)
 
