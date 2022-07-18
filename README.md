@@ -6,11 +6,9 @@ Projeto para criar stickers de capas de filmes. Foram feitas duas implementaçõ
 
 - [Java](https://github.com/sruinascimento/imersao-alura)
 
-> A implementação em Kotlin, provavelmente, será a mais completa.
+## 📝 5 dias de imerão
 
-## 📝 Aulas
-
-- [x] 1
+- [x] 1ª Dua
   - [x] Buscar filmes mais populares
   - [x] Apresentar notas com emoji de estrela
   - [x] Colocar chave da API em um local fora do código fonte
