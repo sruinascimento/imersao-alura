@@ -6,7 +6,7 @@ Projeto para criar stickers de capas de filmes.
 
 - [Java](https://github.com/sruinascimento/imersao-alura)
 
-## 📝 5 dias de imerão
+## 📝 5 dias de imersão
 
 - [x] 1ª Dia
   - [x] Buscar filmes mais populares
