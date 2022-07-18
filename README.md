@@ -8,7 +8,7 @@
 
 ## Descrição do Projeto
 
-<p align="center"> Projeto para criar stickers de capas de filmes.</p>
+<p> Projeto para criar stickers de capas de filmes.</p>
 
 - [Java](https://github.com/sruinascimento/imersao-alura)
 
