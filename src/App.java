@@ -36,7 +36,7 @@ public class App {
         //exibir e manipular os dados
         for (Map<String,String> filme : listaDeFilmes) {
             System.out.println("\u001b[1m \u001b[32m  Title \u001b[0m: \u001b[40m \u001b[34m" + filme.get("title") + "\u001b[0m");
-            System.out.println("\u001b[1m \u001b[32m  Image \u001b[0m: " + filme.get("image"));
+            System.out.println("\u001b[1m \u001b[32m  Poster \u001b[0m: " + filme.get("image"));
             Float avaliacao = Float.parseFloat(filme.get("imDbRating"));
             System.out.println("\u001b[1m \u001b[32m  Rating \u001b[0m:  \u001b[43m" + geraEstrelaAvaliacao(avaliacao) + " \u001b[0m");
             
@@ -48,8 +48,14 @@ public class App {
     public static String geraEstrelaAvaliacao(float rating) {
         int avaliacaoTruncada = Math.round(rating);
         String estrelas = " ";
-        for (int i = 0; i < avaliacaoTruncada; i++) {
-            estrelas += "★";
+        for (int i = 0; i < 10; i++) {
+            // estrelas += "★";
+            if (i < avaliacaoTruncada) {
+                estrelas += "\u2605";
+            } else {
+                estrelas += "\u2606";
+                
+            }
         }
         return estrelas;
     }
