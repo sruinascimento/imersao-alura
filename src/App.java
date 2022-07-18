@@ -51,9 +51,9 @@ public class App {
         for (int i = 0; i < 10; i++) {
             // estrelas += "★";
             if (i < avaliacaoTruncada) {
-                estrelas += "\u2605";
+                estrelas += " \u2605 ";
             } else {
-                estrelas += "\u2606";
+                estrelas += " \u2606 ";
                 
             }
         }
