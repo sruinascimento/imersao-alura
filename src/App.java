@@ -8,6 +8,7 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        final String API_SECRET = System.getenv("API_SECRET_KEY");
         //Top 250 Filmes
         // String url = "https://imdb-api.com/en/API/Top250Movies/"+API_SECRET;
         //Filmes mais populares
@@ -18,7 +19,6 @@ public class App {
         // String url = "https://imdb-api.com/en/API/MostPopularTVs/"+API_SECRET;
 
         //Utilizando uma variavel de ambiente para guardar a chave da
-        final String API_SECRET = System.getenv("API_SECRET_KEY");
         
         
         String url = "https://api.mocki.io/v2/549a5d8b";
