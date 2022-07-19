@@ -8,7 +8,6 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        //k_w5bdv4dn
         //Top 250 Filmes
         // String url = "https://imdb-api.com/en/API/Top250Movies/"+API_SECRET;
         //Filmes mais populares
