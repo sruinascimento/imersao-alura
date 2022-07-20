@@ -39,6 +39,5 @@
 
 ### Resultado 
 ![resultado2dia_filmebom](https://user-images.githubusercontent.com/57668890/179868393-a8090a3f-4294-4b8a-ab07-6b6ac2eddf2c.png)
-
 ![resultado_2](https://user-images.githubusercontent.com/57668890/179868402-93d6ebab-b6db-4800-9b16-cdf5422f8aed.png)
-
+![resultado_whats](https://user-images.githubusercontent.com/57668890/179868541-7bef4103-5d21-4627-a164-6db7b431bde5.png)
