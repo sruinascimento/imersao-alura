@@ -1,66 +1,57 @@
 import java.io.InputStream;
-import java.net.URI;
 import java.net.URL;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.net.http.HttpResponse.BodyHandlers;
 import java.util.List;
 import java.util.Map;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        //Utilizando uma variavel de ambiente para guardar a chave da
         final String API_SECRET = System.getenv("API_SECRET_KEY");
-        //Top 250 Filmes
-        // String url = "https://imdb-api.com/en/API/Top250Movies/"+API_SECRET;
-        // String url = "https://api.mocki.io/v2/549a5d8b";
-        // String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060";
+    
+        // String url = "https://alura-imdb-api.herokuapp.com/movies";
+        // ExtratorDeConteudoDoImdb extrator = new ExtratorDeConteudoDoImdb();
+        
+        String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
+        //  String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD";
+        ExtratorDeConteudoDaNasa extrator = new ExtratorDeConteudoDaNasa();
         
         
-        //Filmes mais populares
-        // String url = "https://imdb-api.com/en/API/MostPopularMovies/"+API_SECRET;
-        //Top 250 seriados
-        // String url = "https://imdb-api.com/en/API/Top250TVs/"+API_SECRET;
-        //Seriados mais populares
-        // String url = "https://imdb-api.com/en/API/MostPopularTVs/"+API_SECRET;
+        var json = new ClienteHttp().buscaDados(url);
+        List<Conteudo> conteudos = extrator.extraiConteudo(json);
         
-        // String url = "https://api.mocki.io/v2/549a5d8b/Top250Movies";
-        // String url = "https://api.mocki.io/v2/549a5d8b/";
-        String url = "https://alura-imdb-api.herokuapp.com/movies";
-        
-        // String url = "https://api.mocki.io/v2/549a5d8b/Memes";
-        URI endereco =  URI.create(url);
-        HttpClient client = HttpClient.newHttpClient(); 
-        HttpRequest request = HttpRequest.newBuilder(endereco).GET().build();
-        HttpResponse<String> response =  client.send(request, BodyHandlers.ofString());
-        String body = response.body();
-
-        //extrair os dados que interessam (titulo, poster, classificacao)
-        JsonParser parser = new JsonParser();
-        List<Map<String, String>> listaDeFilmes = parser.parse(body);
-        
-        //exibir e manipular os dados
         var sticker = new Sticker();
-        
-        for (Map<String,String> filme : listaDeFilmes) {
-            String nomeImagem = filme.get("image");
-            String titulo = filme.get("title");
-            String nomeArquivo = titulo + ".png";
-            String urlFormatada = formataUrl(nomeImagem);
-            InputStream inpuInputStream = new URL(urlFormatada).openStream();
-            Float avaliacaoFilme = Float.parseFloat(filme.get("imDbRating"));
+        for(int i = 0; i < conteudos.size(); i++) {
+            Conteudo conteudo = conteudos.get(i);
 
-            sticker.cria(inpuInputStream, nomeArquivo, avaliacaoFilme);
-            System.out.println("Titulo " + titulo);
-            System.out.println("Avaliacao " + avaliacaoFilme);
-            System.out.println("Poster: " + urlFormatada);
+            InputStream inputStream = new URL(conteudo.urlImagem()).openStream();
+
+            String nomeArquivo = conteudo.titulo();
+
+            sticker.cria(inputStream, nomeArquivo);
+
+            System.out.println(nomeArquivo);
+            System.out.println(conteudo.urlImagem());
+        }
+
+        //exibir e manipular os dados
+        
+        // for (Map<String,String> conteudo : listaDeConteudos) {
+        //     String nomeImagem = conteudo.get("url");
+        //     String titulo = conteudo.get("title");
+        //     String nomeArquivo = titulo + ".png";
+        //     String urlFormatada = formataUrl(nomeImagem);
+        //     InputStream inpuInputStream = new URL(urlFormatada).openStream();
+        //     Float avaliacaoFilme = Float.parseFloat(conteudo.get("imDbRating"));
+
+        //     sticker.cria(inpuInputStream, nomeArquivo);
+        //     System.out.println("Titulo " + titulo);
+        //     System.out.println("Avaliacao " + avaliacaoFilme);
+        //     System.out.println("Poster: " + urlFormatada);
             // System.out.println("\u001b[1m \u001b[32m  Title \u001b[0m: \u001b[40m \u001b[34m" + filme.get("title") + "\u001b[0m");
             // System.out.println("\u001b[1m \u001b[32m  Poster \u001b[0m: " + filme.get("image"));
             // Float avaliacao = Float.parseFloat(filme.get("imDbRating"));
             // System.out.println("\u001b[1m \u001b[32m  Rating \u001b[0m:  \u001b[43m" + geraEstrelaAvaliacao(avaliacao) + " \u001b[0m");
             // System.out.println();
-        }
+        // }
 
     }
 
