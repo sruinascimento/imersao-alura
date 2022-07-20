@@ -32,7 +32,7 @@
 ![resultado_1dia_imersao](https://user-images.githubusercontent.com/57668890/179632900-2276f83e-50a3-4cf0-8ae1-96a5b6ebc818.png)
 
 
-- [x] 2ª Dia
+- [x] 2º Dia
   - [x] Criar diretório de saída das imagens, se ainda não existir.
   - [x] Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
   - [x] Tratar as imagens retornadas pela API do IMDB para pegar uma imagem maior ao invés dos thumbnails. Opções: pegar a URL da imagem e remover o trecho mostrado durante a aula ou consumir o endpoint de posters da API do IMDB (mais trabalhoso), tratando o JSON retornado.
@@ -42,3 +42,7 @@
 ![resultado2dia_filmebom](https://user-images.githubusercontent.com/57668890/179868393-a8090a3f-4294-4b8a-ab07-6b6ac2eddf2c.png)
 ![resultado_2](https://user-images.githubusercontent.com/57668890/179868402-93d6ebab-b6db-4800-9b16-cdf5422f8aed.png)
 ![resultado_whats](https://user-images.githubusercontent.com/57668890/179868541-7bef4103-5d21-4627-a164-6db7b431bde5.png)
+
+- [x] 3º Dia
+  - [x] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
+  - [x] consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente. Repositório com APIs públicas
