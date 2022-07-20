@@ -30,7 +30,7 @@ public class Sticker {
         graphics.setFont(fonte);
         graphics.setColor(Color.YELLOW);
         
-        
+        //Mensagens personalizadas
         if (avaliacao > 6) {
             graphics.drawImage(imagemYoda, 20, alturaImagem / 2, null);
             graphics.drawString("ASSISTIR eu irei!", 200 , alturaImagem + 130);
@@ -38,8 +38,8 @@ public class Sticker {
             graphics.drawImage(imagemBabyYoda, 20, alturaImagem / 2, null);
             graphics.drawString("DORMIR eu irei!", 200 , alturaImagem + 130);
         }
-        
 
+        //Criando Diretório caso o diretório 'image-out' não exista
         String path = "../image-out/";
         File diretorioSaida = new File(path);
         if (!diretorioSaida.exists()) {
