@@ -26,7 +26,7 @@
   - [x] Apresentar notas com emoji de estrela
   - [x] Colocar chave da API em um local fora do código fonte
 
-### Resultado
+### Resultado do 1º dia
 
 ![resultado_1dia_imersao](https://user-images.githubusercontent.com/57668890/179632900-2276f83e-50a3-4cf0-8ae1-96a5b6ebc818.png)
 
@@ -37,7 +37,7 @@
   - [x] Tratar as imagens retornadas pela API do IMDB para pegar uma imagem maior ao invés dos thumbnails. Opções: pegar a URL da imagem e remover o trecho mostrado durante a aula ou consumir o endpoint de posters da API do IMDB (mais trabalhoso), tratando o JSON retornado.
   - [x] Fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.
 
-### Resultado 
+### Resultado do 2º dia
 ![resultado2dia_filmebom](https://user-images.githubusercontent.com/57668890/179868393-a8090a3f-4294-4b8a-ab07-6b6ac2eddf2c.png)
 ![resultado_2](https://user-images.githubusercontent.com/57668890/179868402-93d6ebab-b6db-4800-9b16-cdf5422f8aed.png)
 ![resultado_whats](https://user-images.githubusercontent.com/57668890/179868541-7bef4103-5d21-4627-a164-6db7b431bde5.png)
