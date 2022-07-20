@@ -13,7 +13,8 @@
 
 ## Descrição do Projeto
 
-<p> Projeto para criar stickers de capas de filmes.</p>
+<h4 align="justify"> Projeto de imersão backend com a linguagem Java, visa criar um app que irá consumir dados de uma API que retorna a classificação de filmes e séries, ao fim do projeto pretende criar stickers personalizado com indicação de filmes/séries para enviar por whatsapp. </h4>
+
 
 ## 🖥️ Tecnologias
 
