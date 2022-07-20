@@ -12,7 +12,7 @@ import java.awt.GraphicsEnvironment;
 
 public class Sticker {
 
-    public void cria (InputStream inpuInputStream, String nomeArquivo, float avaliacao) throws IOException {
+    public void cria (InputStream inpuInputStream, String nomeArquivo /* , float avaliacao*/) throws IOException {
 
         BufferedImage imagemOriginal =  ImageIO.read(inpuInputStream);
         BufferedImage imagemYoda =  ImageIO.read(new File("../image/yoda.jpg"));
@@ -30,22 +30,22 @@ public class Sticker {
         graphics.setFont(fonte);
         graphics.setColor(Color.YELLOW);
         
-        
-        if (avaliacao > 6) {
+        //Mensagens personalizadas
+        // if (avaliacao > 6) {
             graphics.drawImage(imagemYoda, 20, alturaImagem / 2, null);
             graphics.drawString("ASSISTIR eu irei!", 200 , alturaImagem + 130);
-        } else {
-            graphics.drawImage(imagemBabyYoda, 20, alturaImagem / 2, null);
-            graphics.drawString("DORMIR eu irei!", 200 , alturaImagem + 130);
-        }
-        
+        // } else {
+        //     graphics.drawImage(imagemBabyYoda, 20, alturaImagem / 2, null);
+        //     graphics.drawString("DORMIR eu irei!", 200 , alturaImagem + 130);
+        // }
 
+        //Criando Diretório caso o diretório 'image-out' não exista
         String path = "../image-out/";
         File diretorioSaida = new File(path);
         if (!diretorioSaida.exists()) {
             diretorioSaida.mkdir();
         }
-        ImageIO.write(novaImagem, "png", new File(path+nomeArquivo));
+        ImageIO.write(novaImagem, "png", new File(path+nomeArquivo + ".png"));
     }
 
     private Font condiguraFonte() {
