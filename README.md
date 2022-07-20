@@ -36,4 +36,3 @@
   - [x] Fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.
 
 
-![resultado_1dia_imersao](https://user-images.githubusercontent.com/57668890/179632900-2276f83e-50a3-4cf0-8ae1-96a5b6ebc818.png)
