@@ -6,6 +6,8 @@
 <img src="https://camo.githubusercontent.com/18185202231435bc1c2003830758e4b9f1567a33602d9d5ed1c73a04f8a44348/687474703a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d535441545553266d6573736167653d454d253230444553454e564f4c56494d454e544f26636f6c6f723d475245454e267374796c653d666f722d7468652d6261646765">
 </>
 
+## Descrição do Projeto
+
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -13,9 +15,7 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-
-## Descrição do Projeto
-
+ 
 <h4 align="justify"> Projeto de imersão backend com a linguagem Java, visa criar um app que irá consumir dados de uma API que retorna a classificação de filmes e séries, ao fim do projeto pretende criar stickers personalizado com indicação de filmes/séries para enviar por whatsapp. </h4>
 
 
