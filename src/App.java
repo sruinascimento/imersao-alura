@@ -1,7 +1,6 @@
 import java.io.InputStream;
 import java.net.URL;
 import java.util.List;
-import java.util.Map;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -10,11 +9,13 @@ public class App {
         // String url = "https://alura-imdb-api.herokuapp.com/movies";
         // ExtratorDeConteudoDoImdb extrator = new ExtratorDeConteudoDoImdb();
         
-        String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
+        //String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
         //  String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD";
-        ExtratorDeConteudoDaNasa extrator = new ExtratorDeConteudoDaNasa();
+        //ExtratorDeConteudoDaNasa extrator = new ExtratorDeConteudoDaNasa();
         
-        
+        String url = "https://linguagens-imersao-api.herokuapp.com/linguagens";
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoDoImdb();
+
         var json = new ClienteHttp().buscaDados(url);
         List<Conteudo> conteudos = extrator.extraiConteudo(json);
         
