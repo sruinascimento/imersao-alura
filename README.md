@@ -53,10 +53,10 @@
   - [x] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
   - [x] consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente. Repositório com APIs públicas
   
- - [x] 4º Dia
-  - [x] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
-  - [x] consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente. Repositório com APIs públicas
+- [x] 4º Dia
+  - [x] Criando API com spring
+  - [x] Métodos GET, POST implementados nas rotas
   
-  - [x] 5º Dia
-  - [x] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
-  - [x] consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente. Repositório com APIs públicas
+ - [x] 5º Dia
+   - [x] Realizar deploy na Heroku
+   - [x] link - https://linguagens-imersao-api.herokuapp.com/linguagens
