@@ -18,8 +18,8 @@
 
 ## 🔨 Tecnologias
 
-- [Java](https://github.com/sruinascimento/imersao-alura) - java 17.0.2 2022-01-18 LTS 
-- Spring 3.0
+- Java - 17.0.2 2022-01-18 LTS 
+- Spring - 3.0
 - MongoDB Atlas
 - Heroku
 
