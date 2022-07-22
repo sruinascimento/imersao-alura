@@ -15,8 +15,8 @@ public class Sticker {
     public void cria (InputStream inpuInputStream, String nomeArquivo /* , float avaliacao*/) throws IOException {
 
         BufferedImage imagemOriginal =  ImageIO.read(inpuInputStream);
-        BufferedImage imagemYoda =  ImageIO.read(new File("../image/yoda.jpg"));
-        BufferedImage imagemBabyYoda =  ImageIO.read(new File("../image/baby-yoda.jpg"));
+        // BufferedImage imagemYoda =  ImageIO.read(new File("../image/yoda.jpg"));
+        //BufferedImage imagemBabyYoda =  ImageIO.read(new File("../image/baby-yoda.jpg"));
         
         int alturaImagem = imagemOriginal.getHeight();
         int larguraImagem = imagemOriginal.getWidth();
@@ -32,8 +32,9 @@ public class Sticker {
         
         //Mensagens personalizadas
         // if (avaliacao > 6) {
-            graphics.drawImage(imagemYoda, 20, alturaImagem / 2, null);
-            graphics.drawString("ASSISTIR eu irei!", 200 , alturaImagem + 130);
+            // graphics.drawImage(imagemYoda, 20, alturaImagem / 2, null);
+            // graphics.drawString("ASSISTIR eu irei!", 200 , alturaImagem + 130);
+            graphics.drawString("MELHOR", 10 , alturaImagem + 100);
         // } else {
         //     graphics.drawImage(imagemBabyYoda, 20, alturaImagem / 2, null);
         //     graphics.drawString("DORMIR eu irei!", 200 , alturaImagem + 130);
@@ -51,7 +52,7 @@ public class Sticker {
     private Font condiguraFonte() {
         Font fonte = null;
         try {
-            fonte = Font.createFont(Font.TRUETYPE_FONT, new File("../fonts/impact.ttf")).deriveFont(100f);
+            fonte = Font.createFont(Font.TRUETYPE_FONT, new File("../fonts/impact.ttf")).deriveFont(42f);
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
             ge.registerFont(Font.createFont(Font.TRUETYPE_FONT, new File("../fonts/impact.ttf")));
             return fonte;
