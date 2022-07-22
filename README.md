@@ -8,7 +8,10 @@
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-<img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 
 ## Descrição do Projeto
@@ -16,9 +19,12 @@
 <h4 align="justify"> Projeto de imersão backend com a linguagem Java, visa criar um app que irá consumir dados de uma API que retorna a classificação de filmes e séries, ao fim do projeto pretende criar stickers personalizado com indicação de filmes/séries para enviar por whatsapp. </h4>
 
 
-## 🖥️ Tecnologias
+## 🔨 Tecnologias
 
 - [Java](https://github.com/sruinascimento/imersao-alura) - java 17.0.2 2022-01-18 LTS 
+- Spring 3.0
+- MongoDB Atlas
+- Heroku
 
 ## 📝 5 dias de imersão
 
@@ -44,5 +50,13 @@
 ![resultado_whats](https://user-images.githubusercontent.com/57668890/179868541-7bef4103-5d21-4627-a164-6db7b431bde5.png)
 
 - [x] 3º Dia
+  - [x] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
+  - [x] consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente. Repositório com APIs públicas
+  
+ - [x] 4º Dia
+  - [x] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
+  - [x] consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente. Repositório com APIs públicas
+  
+  - [x] 5º Dia
   - [x] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
   - [x] consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente. Repositório com APIs públicas
