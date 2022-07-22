@@ -51,9 +51,21 @@
   - [x] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
   - [x] consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente. Repositório com APIs públicas
   
+  ### Resultado do 3º dia
+  ![resultados_3](https://user-images.githubusercontent.com/57668890/180566098-cea6264c-ea60-4e29-b405-76aea25c2c59.png)
+
+   Código refatorado. Foram criadas novas classes, para que a classe App(principal) não fosse uma classe GOD(classe que faz tudo). Foram delegados as tarefas e funções.
+   
+  
 - [x] 4º Dia
   - [x] Criando API com spring
   - [x] Métodos GET, POST implementados nas rotas
+  - [x] Conexão com o MongoDB Atlas e aramzenamento dos documentos.
+
+   ![resultados_4](https://user-images.githubusercontent.com/57668890/180573308-ae5086f6-0f1f-43fe-9361-2791e5fa0fac.png)
+ 
+ Api implemtnada com o spring
+
   
  - [x] 5º Dia
    - [x] Realizar deploy na Heroku
