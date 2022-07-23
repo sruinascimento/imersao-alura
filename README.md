@@ -18,10 +18,10 @@
 
 ## 🔨 Tecnologias
 
-- Java - 17.0.2 2022-01-18 LTS 
-- Spring - 3.0
-- MongoDB Atlas
-- Heroku
+- ``Java - 17.0.2 2022-01-18 LTS``
+- ``Spring - 3.0``
+- ``MongoDB Atlas``
+- ``Heroku``
 
 ## 📝 5 dias de imersão
 
