@@ -9,7 +9,7 @@ Projeto de imersão backend com a linguagem Java, visa criar um app que irá con
 | ✨ Nome        | Alura Sticker
 | 🏷️ Tecnologias | Java, Spring, MongoDB, Heroku, Git (tecnologias utilizadas)
 | 🚀 URL         | https://linguagens-imersao-api.herokuapp.com/linguagens
-| 🔥 Desafio     | https://www.alura.com.br/imersao-java
+| ![](https://user-images.githubusercontent.com/57668890/180817617-19891220-9a10-4894-b958-ffac9356e130.png) Desafio | https://www.alura.com.br/imersao-java
 
 ![](https://user-images.githubusercontent.com/57668890/180806003-6765c6ae-b347-4e0c-82a5-bc224e08d9a8.png#vitrinedev)
 
