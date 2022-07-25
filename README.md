@@ -72,7 +72,7 @@ Projeto de imersão backend com a linguagem Java, visa criar um app que irá con
  ### ✅ Resultado do 4º dia
    ![resultados_4](https://user-images.githubusercontent.com/57668890/180573308-ae5086f6-0f1f-43fe-9361-2791e5fa0fac.png)
  
- Api implementada com o spring
+ Api implementada com o Spring, utilizando o MongoDB para armazenar os dados.
 
   
  ## 5º Dia
