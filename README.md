@@ -18,7 +18,7 @@ Projeto de imersão backend com a linguagem Java, visa criar um app que irá con
 
 - ``Java - 17.0.2 2022-01-18 LTS``
 - ``Spring - 3.0``
-- ``MongoDB Atlas``
+- ``MongoDB``
 - ``Heroku``
 - ``Git``
 
