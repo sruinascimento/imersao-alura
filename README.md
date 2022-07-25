@@ -33,7 +33,7 @@ Projeto de imersão backend com a linguagem Java, visa criar um app que irá con
 <img src="https://camo.githubusercontent.com/459f141bd5e24c179a0e2dd49691e290ed5c5d4b4cb97767daee7cfaf6e31121/687474703a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d535441545553266d6573736167653d434f4e434c5549444f26636f6c6f723d475245454e267374796c653d666f722d7468652d6261646765">
 
 
-- [x] 1ª Dia
+## 1º Dia
   - [x] Buscar filmes mais populares
   - [x] Apresentar notas com emoji de estrela
   - [x] Colocar chave da API em um local fora do código fonte
@@ -43,7 +43,7 @@ Projeto de imersão backend com a linguagem Java, visa criar um app que irá con
 ![resultado_1dia_imersao](https://user-images.githubusercontent.com/57668890/179632900-2276f83e-50a3-4cf0-8ae1-96a5b6ebc818.png)
 
 
-- [x] 2º Dia
+## 2º Dia
   - [x] Criar diretório de saída das imagens, se ainda não existir.
   - [x] Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
   - [x] Tratar as imagens retornadas pela API do IMDB para pegar uma imagem maior ao invés dos thumbnails. Opções: pegar a URL da imagem e remover o trecho mostrado durante a aula ou consumir o endpoint de posters da API do IMDB (mais trabalhoso), tratando o JSON retornado.
@@ -54,7 +54,7 @@ Projeto de imersão backend com a linguagem Java, visa criar um app que irá con
 ![resultado_2](https://user-images.githubusercontent.com/57668890/179868402-93d6ebab-b6db-4800-9b16-cdf5422f8aed.png)
 ![resultado_whats](https://user-images.githubusercontent.com/57668890/179868541-7bef4103-5d21-4627-a164-6db7b431bde5.png)
 
-- [x] 3º Dia
+## 3º Dia
   - [x] Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
   - [x] consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente. Repositório com APIs públicas
   
@@ -64,7 +64,7 @@ Projeto de imersão backend com a linguagem Java, visa criar um app que irá con
    Código refatorado. Foram criadas novas classes, para que a classe App(principal) não fosse uma classe GOD(classe que faz tudo). Foram delegados as tarefas e funções.
    
   
-- [x] 4º Dia
+## 4º Dia
   - [x] Criando API com spring
   - [x] Métodos GET, POST implementados nas rotas
   - [x] Conexão com o MongoDB Atlas e aramzenamento dos documentos.
@@ -75,7 +75,7 @@ Projeto de imersão backend com a linguagem Java, visa criar um app que irá con
  Api implemtnada com o spring
 
   
- - [x] 5º Dia
+ ## 5º Dia
    - [x] Realizar deploy na Heroku
    - [x] link - https://linguagens-imersao-api.herokuapp.com/linguagens
 
